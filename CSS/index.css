@@ -1,0 +1,62 @@
+@font-face {
+    font-family: aglet-slab, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+
+body {
+    background: #4aa596; /* Old browsers */
+    background: -moz-linear-gradient(top, #4aa596 0%, #2a658a 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #4aa596 0%,#2a658a 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #4aa596 0%,#2a658a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4aa596', endColorstr='#2a658a',GradientType=0 ); /* IE6-9 */
+}
+
+#hero, #login {
+    font-family: aglet-slab;
+    color: white;
+    font-weight: bold;
+}
+
+#pg1subline {
+    font-size: 30px;
+    font-family: aglet-slab;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+#button1:hover, #button:active {
+    background-color: darkturquoise;
+    font-size: 55px;
+}
+
+#button1 {
+    text-decoration: none;
+    font-size: 35px;
+    color: white;
+    font-family: aglet-slab;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: skyblue;
+    padding: 20px; 
+}
+
+#button:hover, #button:active {
+    background-color: darkturquoise;
+    font-size: 30px;
+}
+
+#button {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-family: aglet-slab;
+    font-weight: normal;
+    border-radius: 25px;
+    background-color: skyblue;
+    padding: 20px; 
+}
