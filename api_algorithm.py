@@ -2,7 +2,11 @@ from igdb_api_python.igdb import igdb
 import sys
 import random
 
+# In order for the algorithm to work, you must sign up for the API on https://api.igdb.com/
+# You will receive a key to the API once you sign up. Next, type the key in between the quotations on line 9.
+# This activates the API and stores the data from it in variable igdb. The algorithm will correctly work now.
 
+igdb = igdb("")
 
 def gameslist_genres(genres):
 	for i in range(len(genres)):
