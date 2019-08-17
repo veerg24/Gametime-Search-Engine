@@ -1,0 +1,28 @@
+body {
+    background: #2a658a; /* Old browsers */
+    background: -moz-linear-gradient(top, #2a658a 0%, #501765 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2a658a 0%,#501765 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2a658a 0%,#501765 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a658a', endColorstr='#501765',GradientType=0 ); /* IE6-9 */
+}
+#steps {
+    font-family: aglet-slab;
+    color: white;
+    font-weight: bold;
+}
+
+
+#login {
+    float: right;
+}
+
+#subheader {
+    font-family: aglet-slab;
+    color: white;
+    font-weight: normal;
+}
+
+#headerimage {
+    height: 50px;
+    padding: 20px;
+}
